@@ -14,7 +14,7 @@ const employeeRoutes = require('./routes/employees');
 dotenv.config({path : './config.env'});
 
 
-// Connecting to mongodb database
+// Connecting tomongodb database
 mongoose.connect(process.env.DATABASE, {
     useNewUrlParser : true,
     useUnifiedTopology : true,
